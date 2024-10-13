@@ -1,8 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+
+  
 }
 
 /* navbar section styling */
@@ -25,4 +28,44 @@
   color: #0D1321;
 }
 
-/* vavbar styling done */
+/* navbar styling done */
+
+/* hero-section */
+
+
+.hero-sec{
+  background-image: url(images/Hero-bg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+  gap: 40px;
+}
+
+.hero-sec h1{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  word-spacing: 20px;
+}
+
+.hero-sec p{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #5c5c5e;
+}
+
+.hero-sec button{
+  padding: 20px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+
+/* hero section ends */
