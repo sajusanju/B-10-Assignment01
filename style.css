@@ -16,16 +16,19 @@
   align-items: center;
   margin: 15px;
   padding: 20px 100px;
-  border: 2px solid black;
+  font-size: 18px;
+  
   
 }
 
-.nav2 button{
+.nav2  button{
   border: 1px solid black;
   padding: 20px 40px;
   border-radius: 10px;
-  font-size: 25px;
-  color: #0D1321;
+  font-size: 20px;
+  color: #2d2e30;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /* navbar styling done */
@@ -65,6 +68,7 @@
   color: white;
   background-color: black;
   border: none;
+  cursor: pointer;
 }
 
 
@@ -74,7 +78,7 @@
 
 .title {
   text-align: center;
-  border: 1px solid black;
+  
   padding-bottom: 30px;
   
 
@@ -94,18 +98,20 @@
 /* why section starts */
 
 .why-development{
-  background-color: rgb(164, 194, 222);
+   background-color: rgb(250, 250, 250); 
   padding:  100px; 
   margin: 30px 150px;
   display: flex;
   flex-direction: column;
   gap: 60px;
+  border-radius: 20px;
+ 
 }
 
 .why-sec1{
-  border: 1px solid black;
+  
   background: white;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -113,7 +119,7 @@
 }
 
 .why-sec2{
-  border: 1px solid black;
+ 
   background: white;
   border-radius: 10px;
   display: flex;
@@ -123,7 +129,7 @@
 }
 
 .why-sec3{
-  border: 1px solid black;
+  
   background: white;
   border-radius: 10px;
   display: flex;
@@ -132,37 +138,42 @@
 }
 
 .sub-title{
-  padding: 70px 250px 70px 70px;
+  padding: 70px 138px 70px 70px;
   display: flex;
   flex-direction: column;
   gap: 30px;
   justify-content: center;
   color: #5c5c5e;
 }
+.sub-title p, .sub-title2 p{
+  font-size: 18px;
+}
 
 .sub-title2{
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 70px 70px 70px 250px;
+  padding: 70px 70px 70px 0px;
   color: #5c5c5e;
 
 }
 
 .sub-title2 button{
-  width: 200px;
-  padding: 15px 10px;
+  width: 180px;
+  padding: 15px 8px;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .sub-title button{
-  width: 200px;
+  width: 180px;
   padding: 15px 10px;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .sub-title-img{
-  border: 1px solid black;
+  
   padding: 40px;
 }
 /* why section styling done */
@@ -180,7 +191,7 @@
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  border: 1px solid black;
+  border: .4px solid rgb(205, 200, 200);
   margin: 70px 150px;
   border-radius: 20px;
   
@@ -305,10 +316,10 @@
 
 .support{
   text-align: center;
-  background-image: url(images/handshake.jpg) ;
-  background-position: center;
- 
-  padding: 80px 100px;
+  background-image: url(images/handshake.jpg)  ;
+   background-position: center; 
+   background-size: cover;
+  padding: 70px 100px;
   margin: 20px 170px;
   border-radius: 20px;
   background-blend-mode: lighten;
@@ -357,17 +368,23 @@
 footer{
   display: flex;
   justify-content: space-between;
-  background: #f4efef;
+  background: #f8f5f5a2;
   padding : 40px;
   align-items: center;
   
 }
 
 .name{
-  padding-left: 125px;
+  padding-left: 150px;
   font-weight: 600;
+  padding-right: 450px;
 }
 
 .contact-me{
-  padding-right: 125px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: right;
 }
+
+/* footer section end */
