@@ -165,3 +165,32 @@
   padding: 40px;
 }
 /* why section styling done */
+
+
+/* my inspiration section start */
+
+
+.inspiration{
+  padding-top: 70px;
+  padding-bottom: px;
+}
+
+.video{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 1px solid black;
+  margin: 70px 150px;
+  border-radius: 20px;
+  
+}
+
+
+
+.video iframe{
+  border-radius: 20px;
+  
+  
+}
+
+/* inspiration section end */
