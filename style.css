@@ -75,6 +75,7 @@
 .title {
   text-align: center;
   border: 1px solid black;
+  padding-bottom: 30px;
   
 
 }
@@ -194,3 +195,108 @@
 }
 
 /* inspiration section end */
+
+
+/* my current target section */
+
+.current-targets{
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px;
+  
+  
+}
+
+.c-target{
+  
+  padding: 30px 30px;
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  gap: 20px;
+  border-radius: 20px;
+  height: 320px;
+  width: 450px;
+  justify-content: center;
+}
+
+.c-target h3, .n-target-text h3{
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.c-target p, .n-target-text p{
+  font-size: 16px;
+  color: #5c5c5e;
+  font-weight: 400;
+}
+
+.c-target a , .n-target-text a{
+  font-size: 16px;
+  color: #0D1321;
+  font-weight: 700;
+
+}
+
+
+
+.c-target img{
+  height: 60px;
+  width: 60px;
+}
+
+.html{
+  background: #fdf3f1;
+}
+
+.css{
+  background: rgb(241, 241, 251);
+}
+
+.js{
+  background: rgb(248, 248, 235);
+}
+
+
+/* my current target section styling end */
+
+
+/* my next target section starts */
+
+.my-next-target{
+  padding-top: 70px;
+  
+}
+
+.next-targets{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.n-target{
+  border: .2px solid rgb(171, 160, 160);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+  margin: 0px 150px;
+  gap: 50px;
+  border-radius: 20px;
+  
+}
+
+.n-target-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* my next target section styling done */
